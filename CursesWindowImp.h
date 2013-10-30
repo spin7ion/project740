@@ -1,5 +1,5 @@
-#ifndef CURSESWINDOWIMP_H
-#define CURSESWINDOWIMP_H
+#ifndef _CURSESWINDOWIMP_H
+#define _CURSESWINDOWIMP_H
 
 #include "WindowImp.h"
 #include <curses.h>
@@ -16,6 +16,6 @@ namespace ikita
       	virtual void Open ();
 	  	virtual void Close();
   };
-} /* namespace ikita /*
+}
 
 #endif // CURSESWINDOWIMP_H
